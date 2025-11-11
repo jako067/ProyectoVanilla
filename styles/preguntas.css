@@ -1,0 +1,16 @@
+main{
+    background-color: rgb(143, 143, 240);
+display: flex;
+width: 50%;
+}
+
+aside{
+    display: flex;
+    background-color: rgb(228, 111, 111);
+    width: 50%;
+
+}
+#container{
+    display: flex;
+
+}

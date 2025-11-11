@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla</title>
     <script src="index.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     
     <div id="welcome" style="position: absolute; top:40%;left: 40%;"> <h1> Bienvenido, pulse "H" o "J", <br> o espere 5 segundos</h1></div>
     <main id="pag1" style="display: none;">
         <div style="position: absolute; top:45%;left: 45%;">
-            <form action="JAJA">
-            <label for="email">Usuario:</label>
+            <form action="screen2.html">
+            <label for="email" id="usu">Usuario:</label>
             <input type="email" id="email">
+            <input type="submit" id="enviar" value="enviar" disabled="true">
             </form>
         </div>
-        <div id="validasion"></div>
+        <div id="validasion" style="position: absolute; top: 50%; left: 45%;"></div>
 
 
 
 
     </main>
-    
+
 </body>
 </html>
