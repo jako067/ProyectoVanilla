@@ -1,16 +1,24 @@
+body{
+display: flex;
+margin: 0;
+}
+
 main{
     background-color: rgb(143, 143, 240);
-display: flex;
-width: 50%;
+    width: 30%; 
 }
 
 aside{
-    display: flex;
+    width: 80%;
     background-color: rgb(228, 111, 111);
-    width: 50%;
+}
+
+section{
+    margin: 3em;
 
 }
-#container{
+ul{
     display: flex;
-
+    list-style: none;
+    gap:18em;
 }

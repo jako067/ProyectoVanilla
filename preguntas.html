@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/preguntas.css" />
+    <script src="js/test.js" defer></script>
   </head>
   <body>
-    <div id="container">
-      <main>
-        <label for="pregunta"></label>
-        <input type="text" id="pregunta" class="pregunta">
-        <label for="true">true</label>
-        <input type="radio" class="answer" id="true">
-        <label for="false">false</label>
-        <input type="radio" class="answer" id="false">
+    <main>
+      <section>
+        <label for="quest">Pregunta</label><br>
+        <br>
+        <input type="text" id="quest" class="quest">
+        <br><br>
+        <input type="radio" name="opcion" value="verdadero"> Verdadero  
+        <input type="radio" name="opcion" value="falso"> Falso
+        <br><br>
+        <label for="score">Puntuacón</label>
+        <br><br>
+        <input type="text" class="score" id="score">
+        <br><br>
+        <input type="button" value="atrás" id="atras">
+        <input type="submit" value="enviar" id="send">
 
-
-
-      </main>
+        </main>
+      </section>
       <aside>
+        <section id="complete">Aqui contenido:
+
+          <ul>
+
+            <li id="Pregunta"> Pregunta   </li >
+            <li id='Respuesta'> Respuesta  </li>
+            <li id='Puntuacion'> Puntuacion  </li>
+            <li id='Estado'> Estado  </li>
+            
+          </ul>
 
 
-
+        </section>
       </aside>
     </div>
   </body>

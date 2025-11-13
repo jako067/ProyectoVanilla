@@ -30,6 +30,7 @@ function esEmail(cadena) {
     cadena.indexOf('@') < cadena.lastIndexOf('.')
   );
 }
+
 let validar = document.getElementById('validasion');
 function validamos() {
   let value = document.getElementById('email').value;
