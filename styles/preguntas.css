@@ -20,5 +20,5 @@ section{
 ul{
     display: flex;
     list-style: none;
-    gap:18em;
+    gap:14em;
 }
